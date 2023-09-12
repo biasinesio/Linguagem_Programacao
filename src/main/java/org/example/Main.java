@@ -1,10 +1,11 @@
 package org.example;
 
 import java.util.Scanner;
- /*public class Main {
+
+public class Main {
    /* public static void main(String[] args) {
-   /*
-         QUESTÃO NOTA DE AULA
+
+        //   QUESTÃO NOTA DE AULA
 
         Scanner sc = new Scanner(System.in);
 
@@ -17,51 +18,74 @@ import java.util.Scanner;
 
         float imc = IMCService.calculaIMC(peso, altura);
         System.out.printf("Seu IMC é: %.2f", imc);
-*/
+    }
+} */
 
-        //QUESTÃO 1 LISTA DE LP1
- /*
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Insira seu nome: ");
-        String nome = sc.nextLine();
 
-        System.out.println("Insira sua primeira nota: ");
-        float nota1 = sc.nextFloat();
 
-        System.out.println("Insira sua segunda nota: ");
-        float nota2 = sc.nextFloat();
+    //QUESTÃO 1 LISTA DE LP1
+   /* public static void main(string[] args) {
+        scanner sc = new scanner(system.in);
+        system.out.println("insira seu nome: ");
+        string nome = sc.nextline();
 
-        System.out.println("Insira sua terceira nota: ");
-        float nota3 = sc.nextFloat();
+        system.out.println("insira sua primeira nota: ");
+        float nota1 = sc.nextfloat();
 
-        Aluno aluno = new Aluno();
-        aluno.setNome(nome);
-        aluno.setNota1(nota1);
-        aluno.setNota2(nota2);
-        aluno.setNota3(nota3);
+        system.out.println("insira sua segunda nota: ");
+        float nota2 = sc.nextfloat();
 
-        float media = AlunoService.CalculaMedia(aluno.getNota1(), aluno.getNota2(), aluno.getNota3());
+        system.out.println("insira sua terceira nota: ");
+        float nota3 = sc.nextfloat();
 
-        if (media < 4.0){
-            System.out.println("O aluno está reprovado!");
+        aluno aluno = new aluno();
+        aluno.setnome(nome);
+        aluno.setnota1(nota1);
+        aluno.setnota2(nota2);
+        aluno.setnota3(nota3);
+
+        float media = alunoservice.calculamedia(aluno.getnota1(), aluno.getnota2(), aluno.getnota3());
+
+        if (media < 4.0) {
+            system.out.println("o aluno está reprovado!");
         }
-        if (media >= 7.0){
-            System.out.println("O aluno está aprovado!");
-        }else {
-            System.out.println("O aluno está na final!");
+        if (media >= 7.0) {
+            system.out.println("o aluno está aprovado!");
+        } else {
+            system.out.println("o aluno está na final!");
         }
 
     }
 }
-  */
-
- public class Main {
-  public static void main (String[] args){
-      Scanner sc = new Scanner(System.in);
-
-      System.out.println("Olá! Digite a opção que deseja vizualizar: ");
+*/
 
 
-    }
- }
 
+
+   /* public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Olá! Digite a opção que deseja vizualizar: ");
+        System.out.println("Opção 1: Soma de dois números");
+        System.out.println("Opção 2: Subtração de dois números");
+        System.out.println("Opção 3: Mutiplicação de dois números");
+        System.out.println("Opção 4: Divisão de dois números");
+        System.out.print("Insira aqui: ");
+        int opcao = sc.nextInt();
+
+        if (opcao == 1) {
+            System.out.println("Opção 1 - Soma de dois números [10 + 10]: " + Matematica.soma());
+        } else if (opcao == 2) {
+            System.out.println("Opção 2 - Subtração de dois números [10 - 5]: " + Matematica.subtracao());
+        } else if (opcao == 3) {
+            System.out.println("Opção 3 - Multiplicação de dois números [8 * 8]: " + Matematica.multiplicacao());
+        } else if (opcao == 4) {
+            System.out.println("Opção 4 - Divisão de dois números [8 / 2]: " + Matematica.divisao());
+
+        } else {
+            System.out.println("Opção inválida!");
+        }
+
+    } */
+}
